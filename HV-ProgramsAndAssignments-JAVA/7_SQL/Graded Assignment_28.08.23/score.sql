@@ -1,0 +1,1 @@
+SELECT * FROM graded_assignment.scores;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+        var arr1= [1,2,3,4,5,6,7];
+        var arr2=new Array("a", "b","c","d","e","a");
+        var s1="This is a String";
+        for(var i of arr2){ // "in" will dispay the index no; "of" will display the actual value
+            //console.log(i);
+        }
+        for(var i in arr1){ // in will dispay the index no; of will display the actual value
+           // console.log(i);
+        }
+arr1.push(100); // push will add the value at the end.
+arr1.unshift(50); // add the value in the begning
+console.log(arr1);
+
+arr1.pop();// remove the value from end
+arr1.shift(); // remove the value from start
+console.log(arr1);
+//pop & push ; unshift & shift are opposite of each orther
+arr1.splice(0,1); //remove the value from the specified index 1st index- index no to start ; 2nd no-to be delete, next no= add the value.  
+// console.log(arr1);
+arr1.splice (1,0,700,800,900);
+// console.log(arr1);
+arr1.splice(1,1,50,20);
+// console.log(arr1);
+arr1.splice(2,3,100); 
+ console.log(arr1);
+
+//conversion of array to string  & String to array
+
+console.log(arr2.join());
+console.log(arr2.join("-")); // we can add thr seperator in ""
+console.log(arr2.join(""));
+console.log(s1.split(" ")); // split the string in arrays
+
+// combining or merge the two array
+var arr3 = arr1.concat(arr2);
+console.log(arr3);
+console.log(arr2.indexOf("z")); //return -1, if value is not present
+console.log(arr2.indexOf("a")); // indexOf return the first occurance
+console.log(arr2.lastIndexOf("a")); // LastIndexOf return the last occurance
+console.log(arr2.includes("a","b")); // check the presence , return true if any value present
+console.log(arr2.includes("a","z")); 
+
+// Objects
+    </script>
+</body>
+</html>

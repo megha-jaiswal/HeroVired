@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr1=[1,21,3,41,5,6,7,8,9];
+//          arr1.unshift(10);
+//          console.log(arr1);
+// //push, pop, unshift, shift, concat
+//         const arr2=[20,50,40,30,80,71];
+//         const combarray= arr1.concat(arr2);
+//         console.log(combarray);
+// //slice
+const str1=["apple", "guava","lichi","mango","banana"];
+// const slicearray= str1.slice(2,3); // 1st index will start element & run upto 2nd index excuding the 2nd index
+// console.log(slicearray);
+
+// for in loop-- return the index of array elements
+for (let i in arr1){
+    //console.log(i);
+}
+
+// for of loop-- return the value of array elements
+for (let j of arr1){
+    console.log(j);
+}
+// for each loop
+
+str1.sort(); // sort in ascending order only on string array
+console.log(str1);
+
+arr1.sort(function(a,b){
+    //return a-b; // sort the number array in ascending order ; if used b-a if will sort in descending order
+    return b-a;
+});
+console.log(arr1);
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="523344a5-f04e-478c-baeb-022fbf15d780" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../4_OOPS Programing in java/InventoryMang/src/InventoryMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4_OOPS Programing in java/InventoryMang/src/com/java/demo/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4_OOPS Programing in java/InventoryMang/src/com/java/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4_OOPS Programing in java/InventoryMang/src/com/java/demo/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4_OOPS Programing in java/InventoryMang/src/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Streamone/StreamEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/src/PolyOverloadingExOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/src/PolyOverridingEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_OOPS Programing in java/untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2SbquVTGjdhoWwckn1Lq8wusB8e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/JAVA practice/HV-ProgramsAndAssignments-JAVA/4_OOPS Programing in java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="523344a5-f04e-478c-baeb-022fbf15d780" name="Changes" comment="" />
+      <created>1689425850930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689425850930</updated>
+    </task>
+    <servers />
+  </component>
+</project>

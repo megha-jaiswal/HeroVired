@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .main {
+            background-color: teal;
+            height:30px;
+            width:100%;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-direction:column-reverse;  */
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+               
+        .box {
+            display: inline;
+            height:100px;
+            width:100px;
+            color: black;
+            /* border:2px solid red; */
+            margin: 4px;
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head> 
+<body>
+    <div class="main"> 
+        <div class="box"> Home </div>  
+    <div class="box"> Products  </div>
+    <div class="box">  Pricing  </div>
+    <div class="box">  Contact </div>
+</div>
+</body>
+</html>

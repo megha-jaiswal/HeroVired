@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/4_OOPS Programing in java.iml" filepath="$PROJECT_DIR$/4_OOPS Programing in java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InventoryMang/InventoryMang.iml" filepath="$PROJECT_DIR$/InventoryMang/InventoryMang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InventoryMangOOPS/InventoryMangOOPS.iml" filepath="$PROJECT_DIR$/InventoryMangOOPS/InventoryMangOOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LiveSession/LiveSession.iml" filepath="$PROJECT_DIR$/LiveSession/LiveSession.iml" />
+    </modules>
+  </component>
+</project>

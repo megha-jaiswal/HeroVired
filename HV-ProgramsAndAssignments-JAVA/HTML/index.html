@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="This is an example webpage showcasing different meta tags.">
+    <meta name="author" content="John Doe">
+    <meta name="robots" content="index, follow">
+    <!-- <meta http-equiv="refresh" content="5;url=https://example.com"> -->
+
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="Example Website">
+    <meta property="og:description" content="A demo website for Open Graph meta tags">
+    <meta property="og:image" content="https://example.com/images/preview.jpg">
+
+    <!-- Apple Devices Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Example"> -->
+    
+    <title>Meta Tags Example</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- rgb: red, green,blue #001212 rgb(0,255,255) -->
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, 
+        alias tempore! Quam qui animi explicabo corrupti 
+        recusandae commodi quasi, facere ab eum debitis.
+         Modi, dolorem doloremque? Eaque inventore fugiat a.</p> -->
+
+<!--iframe-->
+<!--youtube-->
+<!--origin/embed/video_id?autoplay=1-->
+<!--width, height-->
+<!-- <iframe src="https://www.youtube.com/embed/2CCN_wVgyUE?autoplay=1" allow="autoplay"></iframe> -->
+<!--signup and registration-->
+<!--firstname, lastname, DOB, email,password,picture,mobile-->
+<h1>Registration Form</h1>
+<form>
+    <!--to identify or to clarify client what should be there in our input box -->
+    <label for="firstname">First Name</label><br>
+    <input type="text" id="firstname" placeholder="first name here" class="text-input"><br>
+    <label for="lastname">Last Name</label><br>
+    <input type="text" id="lastname" placeholder="last name here" class="text-input"><br>
+    <label for="dob"> Date of Birth</label><br>
+    <input type="date" id="dob"class="text-input"><br>
+    <label type="email"> Email</label><br>
+    <input type="email" id="email" placeholder="email here" class="text-input"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" placeholder="password here" class="text-input" style="margin-bottom: 4px;margin-top: 4px;"><br>
+    <label for="file">Picture upload</label><br>
+    <input type="file" id="file" style="margin-bottom: 4px;margin-top: 4px;"><br>
+    <label for="number">Mobile number</label><br>
+    <input type="number" id="number" placeholder="format +91" class="text-input"><br>
+    <label> Gender</label><br>
+    <label for="male"> Male</label>
+    <input type="radio" name="gender" id="male" style="margin-bottom: 4px;margin-top: 4px;">
+    <label for="female"> Female</label>
+    <input type="radio" name="gender" id="female" style="margin-bottom: 4px;margin-top: 4px;" ><br>
+    <a href="https://www.github.com" target="_blank"><p>Github</p></a>
+    
+    <!-- checkbox scenario -->
+    <lable for="">Terms and Condition</lable><br>
+    <input type="checkbox" name="term1" id="term1">
+    <lable for="term1">
+        I agree to the given policy ..
+    </lable><br>
+    
+    <input type="checkbox" name="term2" id="term2">
+    <label for="term2">
+        I agree to the second condition. 
+    </label><br>
+    
+    <!-- button tag -->
+    <input type="submit" class="btn-style">
+    <button class="btn-style">Save</button>
+</form>
+</body>
+</html>
