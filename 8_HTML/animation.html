@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            width:100px;
+            height:100px;
+            margin-left: 50px;
+            border-radius: 50%;
+            background-color: aquamarine;
+            /* transform: translate(150px,150px); */
+            /* transform: rotate(140deg); */
+            /* transform: skew(40deg);
+            transform: scalex(2); */
+            /* transform: matrix(0,2,4,3,5,6);
+            transition: transform 2s ease-in-out 0.3s; */
+            /* animation:move 3s ease-infinte; */
+        /* } */
+        /* div:hover{
+            transform: scale(3);
+        } */ */
+        div{
+            height:100px;
+            width:100px;
+            border-radius: 50%;
+            position:absolute;
+            background-color: blue;
+           
+            animation: move 3s ease infinite ;
+
+        }
+        @keyframes move{
+            10%{
+                height:200px;
+                width:50px;
+            }
+            30%{
+                height:20px;
+                width:200px;
+            }
+            60%{
+                height:70px;
+                width:440px;
+            }
+            100%{
+                height:300px;
+                width:440px;
+                background-color: brown;
+            }
+        }
+</style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

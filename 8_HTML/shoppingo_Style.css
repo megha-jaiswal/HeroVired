@@ -1,0 +1,178 @@
+html,body{
+    height:100%;
+    width:100%;
+   }
+
+.main-header
+{
+background-color:#0F1111;
+height:8%;
+width:100%;
+padding: 10px;
+display: flex;
+background-color:black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.main-header-items{
+display: flex ;
+justify-content: space-evenly;
+align-items: center;
+padding: 10px;
+margin-left: 10px;
+}
+
+.nav-bar
+{
+height:12%;
+width:100%;
+background-color:#FFB000;
+color:black;
+display:flex; 
+padding-bottom: 10px; 
+justify-content: space-evenly;
+}
+
+.nav-bar-items
+{
+    height: 100%;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#items-img
+{
+display:flex;
+margin-right: 250px;
+}
+#HomeTab{
+height:5%;
+width:100%;
+color:black;
+display:flex;
+margin: 20px;
+text-align:left;
+word-spacing :100px;
+justify-content: space-evenly;
+font-size: 20px;
+margin-top: 30px;
+}
+
+.Image-Container{
+height:45%;
+width:100%;
+background-color: #F1B4BB;
+display: flex;
+}
+
+.img-menu1{
+    width:75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.img-menu2{
+    width:25%;
+    height: 100%;
+    align-items:start;
+   
+}
+
+
+#shoppingImage{
+    height: 100%;
+    width:100%;
+
+} 
+    
+
+.Shhiping-contianer{
+height:15%;
+width:100%;
+background-color: white;
+margin: 10px;
+}
+#box1, #box2,#box3{
+    height: 90px;
+    width:350px;
+    display:inline-block;
+    border: solid 2px;
+    border-color: whitesmoke;
+    margin-right: 100px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.category{
+height:25%;
+width:100%;
+background-color:white;
+margin: 5px;
+display: inline;
+
+}
+#sbox1,#sbox2,#sbox3{
+width: 350px;
+height: 25%;
+border: solid 2px;
+display: inline-block;
+border-color: black;
+margin-right: 100px;
+vertical-align: middle;
+text-align: center;
+padding: 5px;
+margin-top: 10px;
+
+
+}
+#sbox1{
+background-color: aqua;
+}
+#sbox2{
+background-color:#FFE5E5;
+}
+#sbox3{
+background-color:#F5E8B7;
+}
+
+/* .men-wear{
+text-align:justify;
+
+}
+#women-wear{
+    text-align:justify;
+}
+#kids-wear{
+    text-align:justify;
+} */
+
+
+
+.product{
+width:100%;
+height:100%;
+background-color: lightgrey;  
+margin: 10px;
+
+}
+
+#proId{
+   width:350px;
+   height:300px;
+   display:inline-flex;
+   flex-direction:row;
+   border: solid 2px;
+   margin: 10px;
+   /* justify-content: space-between; */
+ 
+   
+}

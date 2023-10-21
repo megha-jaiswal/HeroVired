@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            color:blueviolet;
+        }
+        .newdiv{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Learning Query Selector</h1>
+        <div class="newdiv">
+            <p>Hello</p>
+        </div>
+        <div class="content"> 
+        <p> Some xyz para</p>
+        <p>Some abc paragraphs</p><br>
+        <a href="">Random link</a><br>
+        <div class="newdiv"> 
+            <p>hello</p>
+        </div>
+    </div>
+    <button id="btn-1"> Click Me</button>
+<script>
+    // const firstItem=document.querySelector(".newdiv") //by class name
+    // console.log(firstItem);
+    // const selected=document.querySelector('#title'); //by id
+    // console.log(selected);
+    // const tagSelect=document.querySelector('p'); //by tag name
+    // console.log(tagSelect);
+    // const combineSelector=document.querySelector('.content a'); 
+    // console.log(combineSelector);
+    // const s=document.querySelector('.newdiv p');
+    // console.log(s);
+    // const s1=document.querySelector('.content p');
+    // console.log(s1);
+    const p=document.querySelectorAll('p')
+    p.forEach(i => console.log(i))
+
+
+</script>
+
+</body>
+</html>
+
+<!-- querrySelector
+querrySelectorAll -->

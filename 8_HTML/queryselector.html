@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            color: blue;
+        }
+        .newdiv{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Learning QuerySelector</h1>
+    <div class="newdiv">
+        <p>hello</p>
+    </div>
+    <div class="content">
+        <p id="one">Some xyz para</p>
+        <p id="two">1.Some abc paragraph</p><br>
+        <a href="">Random Link</a><br>
+        <div class="newdiv">
+            <p>hey</p>
+        </div>
+        <p id="three">Some xyz para</p>
+        <p id="two">2.Some abc paragraph</p><br>
+    </div>
+    <p id="four">Some xyz para</p>
+    <p id="two">3.Some abc paragraph</p><br>
+    <button id="btn-1">Click me</button>
+    <script>
+        // const firstItem = document.querySelector('.newdiv') //class
+        // console.log(firstItem)
+        // const selectId = document.querySelector('#title')
+        // console.log(selectId)
+        // const tagSelect = document.querySelector('p')
+        // console.log(tagSelect)
+        // const combineSelector = document.querySelector('.content a')
+        // console.log(combineSelector)
+        // const s = document.querySelector('.newdiv p')
+        // console.log(s)
+        const p = document.querySelectorAll('p')
+        // p.forEach(i => console.log(i))
+        const usernameError = document.querySelector('#four + #two')
+        console.log(usernameError)
+
+
+    </script>
+    
+</body>
+</html>
+
+<!-- 
+    querySelector
+    querySelectorAll
+ -->

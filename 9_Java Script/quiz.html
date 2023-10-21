@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <script>
+        var score = 0;
+        alert("Welcome to the Quiz");
+        var que1= prompt("Capital of India?");
+        if (que1.toLowerCase()=="delhi"){ 
+            // we can use the == (do not check the data type) or ===
+            alert("The answer is correct")
+            score++;
+        }else{
+            alert("Incorrect answer")
+        }
+
+        var que2= parseInt(prompt("The sum of 2 and 4 is?"));
+        if (que2=="6"){ 
+            alert("The answer is correct")
+            score++;
+        }else{
+            alert("Incorrect answer")
+        }
+        console.log (score);
+
+    </script>
+</body>
+</html>

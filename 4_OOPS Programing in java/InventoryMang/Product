@@ -1,0 +1,44 @@
+class product
+{
+    private int id;
+    private String name;
+    private double price;
+    private int  quantity;
+    private String description;
+    private String prod_types;
+
+    public void setId()
+    {
+        this.id= id;
+        
+    }
+    public String setName()
+    {
+        this.name=name;
+        
+    }
+    public double setPrice()
+    {
+        this.price=price;
+        
+    }
+    public int setQuantity()
+    {
+        this.quantity=quantity;
+       
+    }
+    public String setDescription()
+    {
+         this.description=description;
+       
+    }
+    public String setProd_String()
+    {
+         this.prod_types=prod_types;
+    }
+
+    public String toString(){
+        return id+"name"+price+quantity+"description"+prod_types;
+    }
+
+}

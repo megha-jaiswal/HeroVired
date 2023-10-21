@@ -1,0 +1,10 @@
+ls
+cd "paste the link from commad folder to uplode the file"git 
+git init
+git remote ass origin <git link>
+git remote -v
+git add .
+git commit -m "First commit"
+git push origin master
+
+git help

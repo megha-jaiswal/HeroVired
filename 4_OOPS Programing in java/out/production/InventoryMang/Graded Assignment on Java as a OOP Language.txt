@@ -1,0 +1,7 @@
+https://github.com/megha-jaiswal/E-GitHubRepository-HV-ProgramsAndAssignments-JAVA/tree/master/com/java/demo
+
+https://github.com/megha-jaiswal/E-GitHubRepository-HV-ProgramsAndAssignments-JAVA/blob/master/InventoryMang.java
+
+https://github.com/megha-jaiswal/E-GitHubRepository-HV-ProgramsAndAssignments-JAVA/blob/master/Main.java
+
+https://github.com/megha-jaiswal/E-GitHubRepository-HV-ProgramsAndAssignments-JAVA/blob/master/product.java

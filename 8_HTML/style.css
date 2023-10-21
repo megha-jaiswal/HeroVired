@@ -1,0 +1,42 @@
+
+
+
+
+*{
+   box-sizing: border-box;
+    background-color:#FFEEF4;
+    /* color added from colorhunt.co. paste with # */
+}
+form{
+    height: 650px;
+    width:500px;
+    padding: 8px;
+    background-color:#FAF1E4;
+    border: 2px solid black;
+    border-radius:10px;
+}
+label{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color:#435334;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text-input{
+    width:350px;
+    height:35px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+}
+.btn-style{
+    margin:10px;
+    border: 2px solid black;
+    border-radius:4px;
+    background-color:#A8DF8E;
+    height: 30px;
+    width:80px;
+
+}

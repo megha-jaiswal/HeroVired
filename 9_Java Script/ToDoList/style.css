@@ -1,0 +1,43 @@
+html,body{
+    background-color:rgb(192, 220, 234);
+    text-align: center;
+    margin: 10px;
+    border: solid 2px;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* .div{
+width:400px;
+height:1200px;
+color: bisque;
+border: 2px;
+} */
+
+#add{
+    color: black;
+    display: inline-flex;
+    height: 35px;
+    width: 400px;
+    text-decoration: none;
+    font-size: large;
+}
+
+#click{
+    height: 25px;
+    display: inline-flex;
+    background-color: black;
+    color:white;
+    text-align: center;
+    align-items: center;
+}
+
+#count{
+    color: blue;
+}
+#complete{
+    color: green;
+}

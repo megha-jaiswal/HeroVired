@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        /* style are written here along with selectors*/
+        /*selector with tagname*/
+        #form1 { 
+        height:200px; 
+        width:200px; 
+        background-color:aqua;
+        }
+        #form2 { 
+        height:200px; 
+        width:200px; 
+        background-color:palevioletred;
+        }
+        /* #id_name*/
+        /* .class_name*/
+        /* btw id and class, preference order is id then class */
+        .red{ 
+        height:100px; 
+        width:200px; 
+        background-color: red;
+        }
+        .blue{ 
+        height:100px; 
+        width:200px; 
+        background-color:blue;
+        }
+        /*universal selector: start with "* and the {}" */
+        *{
+            background-color:lightskyblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #form4>label{
+            color: green;
+        }
+        #form4>input{
+            border:1px solid red;
+        }
+        #form4 p{
+            color:red;
+        }
+        #form4>a>label{
+            background-color: brown;
+        }
+       
+    </style>
+</head>
+<body>
+    <!-- selector: universal selector *
+    id: id attribute,
+    class: attribute,
+    tagname: simple direct html tag
+    descendant selector- grand child
+    child selector- immediate child
+
+    style tage,
+    inline styles,
+    external css file 
+ -->
+    <input type="text" id="id1" style="height: 50px; width:200px">
+    <p class="pclass" style="color:red">learning html css</p>
+    <form id="form1" class="red"></form> <br>
+    <form id="form2" class="red"></form> <br>
+    <form class="blue"></form><br>
+    <form class="blue" id="form4"><br>
+    <label> input your name</label><br>
+    <input type="text">
+    <a href="">
+    <p> Hi! I am inside anchor tag</p> 
+<!-- /* p tag is child tag of a tag*/ -->
+            <label for=""> Hi I am a lable inside p tag</label>
+        </a>
+    </form>
+</body>
+</html>

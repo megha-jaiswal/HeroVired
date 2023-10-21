@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> OOP in JS</h1>
+
+    <script>
+        class Car{
+            constructor(brand,model, color, bodytype, year,fuelType){
+                this.brand=brand,
+                this.model=model,
+                this.color=color,
+                this.bodytype=bodytype,
+                this.year=year,
+                this.fuelType=fuelType
+            }
+            expiryYear(){
+                if (this.fuelType == "petrol"){
+                    return this.years+15;
+                }else{
+                    return this.year+10
+                }
+            }
+        }
+    const Megha =new Car('Toyota', 'Fortuner','white','SUV',2023, 'petrol');
+    console.log(Megha);
+    console.log(Megha.brand);
+    console.log(JSON.stringify(Megha));
+    Megha.expiryYear();
+    
+    const Vishal =new Car('MerBenz','E class','Black','sedan',2018,'petrol')
+    console.log(Vishal.bodytype, Megha.bodytype);
+    Megha.color="black";
+    console.log(Megha.color);
+
+    class Supercar extends Car{
+        constructor(brand, cc, speed){
+            super(brand) //Super is the function .used to inhertance the properties of parent class
+            this.cc=cc;
+            this.speed=speed;
+        }
+    }
+    const gurpreet =new Supercar('AMZ', 4000, 400);
+    console.log(gurpreet.cc);
+    console.log(gurpreet.brand);
+    console.log(gurpreet.color); 
+
+    </script>
+    
+</body>
+</html>

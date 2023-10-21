@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <script>
+        // var i=5;
+        // do{
+        //     i++;
+        //     console.log(i);
+            
+        // }
+        //     while (i<=10)
+        //     {
+        //     console.log(i);
+        //     document.write("<p> The value of i is: " +i + "</p>");
+        //     i++;
+        // }
+
+        // for (var i=5; i<=10; i++){
+        //     console.log(i);
+        //     document.write(i);
+        // }
+
+        // // fibonacci series upto 20 terms  (0-1-2-3-5-8-13)
+        // var arr1=[0,1];
+        // for (let i=2; i<=20; i++){
+        //     arr1.push(arr1[i-1]+arr1[i-2]);
+           
+        // }
+        // console.log(arr1);
+        // document.write(arr1);
+
+        //         for(var i=1; i<=100; i++){
+        //             if(i % 3==0 && i % 7==0){
+        //             console.log("Multiple of Both 3 & 7");
+        //         }
+
+        //         else if (i % 3 ==0){
+        //             console.log("Multiple of 3");
+        //         }
+        //         else if (i % 7 ==0){
+        //             console.log("Multiple of 7");
+        //         }
+               
+        //     else{
+        //         console.log(i);
+        //     }
+        // }
+
+        // check the string is palindrome or not (madam/ lol/ SMS)
+            // var str1="stop here only ";
+            // var arr1=str1.split('');
+            // console.log(arr1);
+
+        var str1 = "madam"
+        /* var arr1 = str1.split('');
+
+        //reverse the array and join it to make a string again
+       
+        var reversed = [];
+        for (let i = arr1.length - 1; i >= 0; i--) {
+            reversed.push(arr1[i]);
+        } */
+         //built in method using the . operator we differniate the methods
+        var str2 = str1.split('').reverse().join('') 
+        //var str2 = reversed.join('')
+        if(str1 == str2 )
+        {
+            console.log('its palindrom')
+        }
+        else{
+            console.log ('not palindrom')
+        }
+
+    </script>
+
+</body>
+</html>

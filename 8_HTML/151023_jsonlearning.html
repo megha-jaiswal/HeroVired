@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Learning</title>
+</head>
+<body>
+    <h1>JSON Learning</h1>
+    
+
+<script>
+    const userString='{"name": "Megha","age":"30"}'
+    const userObject={"name": "Megha","age":"30"};
+    const userOjectConverted=JSON.parse(userString);
+    console.log(typeof userOjectConverted);
+    const userStringConverted=JSON.stringify(userObject);
+    console.log(typeof userStringConverted);
+
+    console.log(userObject);
+    console.log(userObject.name);
+    console.log(userObject.age);
+    userObject.age=18  // upadte the existing data
+    console.log(userObject);
+    // delete userObject.age;
+    // console.log(userObject.age); // return undefined as age is deleted
+    userObject.id ="meghajaiswal" //.id-- will add the new key
+    console.log(userObject);
+    let {name, age} =userObject;
+    console.log(age,name);
+    age=67
+    console.log(userObject);
+      //Spread Operator -- used to merge (...)
+    const car ={"model":"bmw", "topspeed":330};
+    const mergedData ={...userObject, ...car}; // Spread operator
+    console.log('mergedData', mergedData);
+    const mergedData1 ={...userObject, ...car, age:98}; //immutable
+    console.log('mergedData', mergedData1);
+
+    const userArr=[
+        {name:"Gurpreet",age: 18},
+        {name:"Seema",age: 27},
+        {name:"Mohit",age: 28},
+        {name:"Sumit",age: 29}
+    ];
+   // code : if age is more than 25, get the ticket of Match
+       for (let i=0; i<userArr.length; i++){
+        if (userArr[i].age < 25){
+            // console.log(${userArr[i].name} +'has won free ticket');
+        }
+       }
+
+       const quiz= [
+       {
+            "id":1,
+            "questionsType": 'MCQ',
+            "question": 'what is class?',
+            "option":{
+                "a":"template",
+                "b": "instance",
+                "c":"property",
+                "d":"none of the above"
+            },
+            "correctOption":"a",
+            "marks": 2
+       },
+       {
+            "id":2,
+            "questionsType": 'MCQ',
+            "question": 'what is class?',
+            "option":{
+                "a":"template",
+                "b": "instance",
+                "c":"property",
+                "d":"none of the above"
+            },
+            "correctOption":"a",
+            "marks": 2
+       },
+       {
+            "id":3,
+            "questionsType": 'MCQ',
+            "question": 'what is class?',
+            "option":{
+                "a":"template",
+                "b": "instance",
+                "c":"property",
+                "d":"none of the above"
+            },
+            "correctOption":"a",
+            "marks": 2
+       }
+       ]
+    
+       console.log(quiz.option.a);
+       console.log(quiz.marks);
+  
+
+    </script>
+
+</body>
+</html>
