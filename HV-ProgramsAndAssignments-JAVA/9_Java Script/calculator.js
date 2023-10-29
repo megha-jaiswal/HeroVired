@@ -1,16 +1,26 @@
-var a= parseInt(prompt("Enter 1st no:"));
-// alert(a);
-var b = parseInt(prompt("Enter 2nd no"));
-// const c =(prompt("Enter Operand:"))
+let inputValue=items.value;
 
-console.log("sum of two no is", acb);
-prompt ("sum of two no is", acb);
 
-// console.log("sum of two no is", a+b);
-// prompt ("sum of two no is", a+b);
+document.getElementById('btn-equals').addEventListener('click', function() {
 
-// console.log("Differnce of two no is", a-b);
-// prompt ("Difference of two no is", a-b);
+    const inputValue = display.value;
 
-// console.log("Multiplication of two no is", a*b);
-// prompt ("Multiplication of two no is", a*b);
+    try {
+
+        const result = eval(inputValue); // Use eval for simplicity
+
+        display.value = result;
+
+    } catch (error) {
+
+        display.value = 'Error';
+
+    }
+
+});
+
+document.getElementById('btn-clear').addEventListener('click', function() {
+
+    display.value = '';
+
+});
